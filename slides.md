@@ -10,13 +10,13 @@ style: |
   }
   h1 {
     color: #00ffff;
-    text-shadow: 0 0 20px #00ffff;
     font-size: 2.5em;
+    font-weight: bold;
   }
   h2 {
     color: #00ffff;
-    text-shadow: 0 0 15px #00ffff;
     font-size: 1.8em;
+    font-weight: bold;
   }
   strong {
     color: #ff00ff;
@@ -40,7 +40,6 @@ style: |
   section.title h2 {
     color: #ff00ff;
     font-size: 1.4em;
-    text-shadow: 0 0 10px #ff00ff;
   }
 ---
 
