@@ -1,0 +1,14 @@
+{
+  "name": "di-qkd-slides",
+  "version": "1.0.0",
+  "description": "Device Independent QKD presentation for Hong Kong lecture",
+  "scripts": {
+    "preview": "marp slides.md --html --preview",
+    "build:html": "marp slides.md --html -o dist/slides.html",
+    "build:pdf": "marp slides.md --pdf -o dist/slides.pdf",
+    "build": "pnpm run build:html && pnpm run build:pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.0"
+  }
+}
