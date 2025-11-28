@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import * as fs from "node:fs";
 import * as path from "node:path";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GOOGLE_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const GLOBAL_STYLE = `
 Sci-fi anime style illustration, cyberpunk aesthetic inspired by Ghost in the Shell and Steins;Gate.
