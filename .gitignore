@@ -6,3 +6,5 @@ __pycache__/
 .venv/
 _site/
 .DS_Store
+slides.html
+slides.pdf
