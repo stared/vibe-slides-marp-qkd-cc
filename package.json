@@ -1,14 +1,22 @@
 {
   "name": "di-qkd-slides",
   "version": "1.0.0",
+  "type": "module",
   "description": "Device Independent QKD presentation for Hong Kong lecture",
   "scripts": {
     "preview": "marp slides.md --html --preview --no-stdin",
     "build:html": "marp slides.md --html -o slides.html --no-stdin",
     "build:pdf": "marp slides.md --pdf -o slides.pdf --allow-local-files --no-stdin",
-    "build": "pnpm run build:html && pnpm run build:pdf"
+    "build": "pnpm run build:html && pnpm run build:pdf",
+    "generate-images": "tsx src/generate-images.ts"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.1.0"
+    "@marp-team/marp-cli": "^4.1.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0"
   }
 }
